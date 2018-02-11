@@ -1,0 +1,164 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  background: url(../img/bg-page.png) repeat;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+iframe {
+  border: none;
+}
+
+
+.container {
+  width: 928px;
+  margin: 0 auto;
+  /*outline: 1px solid lightgray;*/
+}
+
+.headline {
+  width: 100%;
+  /*min-height: 500px;*/
+  /*outline: 1px solid red;*/
+}
+
+.page-title {
+  margin: 0;
+  padding-top: 109px;
+  color: #333;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.above-title {
+  display: block;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.content {
+  padding-top: 74px;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 145px;
+  /*outline: 1px solid orange;*/
+}
+
+.column-form {
+  width: 297px;
+  height: 269px;
+  padding-top: 28px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background: #fff;
+  border: 5px solid #2727d9;
+}
+
+.column-form input {
+  width: 265px;
+  padding: 12px 15px 13px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  font: 18px "Tahoma", "Arial", sans-serif;
+  outline: 0;
+}
+
+.title-form {
+  margin: 0;
+  padding-bottom: 37px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  text-transform: none;
+}
+
+.btn {
+  margin-top: 8px;
+  padding: 20px 0 24px;
+  width: 296px;
+  background-color: #3c3cdd;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3535c4;
+}
+
+.btn-link {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 96px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.title-section {
+  margin-bottom: 81px;
+}
+
+.clients .title-section {
+  margin-bottom: 68px;
+}
+
+.features-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.features-item {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 210px;
+  /*outline: 1px solid green;*/
+  text-align: center;
+}
+
+.features p {
+  align-self: flex-end;
+  margin: 0;
+  margin-top: 15px;
+  padding: 0px 20px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+}
+
+.clients {
+  padding-bottom: 74px;
+}
+
+.photo-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.photo-section img {
+  margin-bottom: 25px;
+}
+
+
+
+
